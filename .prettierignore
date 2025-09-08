@@ -1,0 +1,15 @@
+# Ignore node stuff
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+.next
+dist
+build
+out
+
+# Misc
+*.log
+coverage
