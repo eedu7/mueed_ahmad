@@ -9,10 +9,8 @@ export interface HeroIcon {
 	id: string;
 	icon: RemixiconReactIconComponentType;
 	url: string;
-	className?: string;
 }
 
-// TODO: Add colors according to their logos
 export const heroIcons: HeroIcon[] = [
 	{
 		id: "instagram",
