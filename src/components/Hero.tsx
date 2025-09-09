@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 
+import { heroIcons } from "@/assets";
+
 export const Hero = () => {
 	return (
 		<div className="grid h-screen place-items-center">
@@ -23,8 +25,16 @@ export const Hero = () => {
 					</h1>
 					<p className="text-lg tracking-wider text-gray-700">I like animations 😊</p>
 				</div>
-				<div>
-					<a href="#">Icon</a>
+				<div className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600">
+					{heroIcons.map(({ id, icon: Icon, url }) => (
+						<a
+							href={url}
+							key={id}
+							className="rounded-lg transition-colors hover:bg-red-400 hover:text-white"
+						>
+							<Icon />
+						</a>
+					))}
 				</div>
 				<a
 					href="#"
