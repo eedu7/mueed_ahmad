@@ -1,12 +1,4 @@
-// Hero
-import DribbbleLineIcon from "remixicon-react/DribbbleLineIcon";
-import FacebookCircleLineIcon from "remixicon-react/FacebookCircleLineIcon";
-import GithubLineIcon from "remixicon-react/GithubLineIcon";
-import InstagramLineIcon from "remixicon-react/InstagramLineIcon";
-import YoutubeLineIcon from "remixicon-react/YoutubeLineIcon";
-
-/* eslint-disable react/jsx-key */
-export const heroIcons = [InstagramLineIcon, FacebookCircleLineIcon, DribbbleLineIcon, YoutubeLineIcon, GithubLineIcon];
+export * from "./hero-icons";
 
 // About Me
 import AwardFillIcon from "remixicon-react/AwardFillIcon";
